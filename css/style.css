@@ -1,26 +1,36 @@
 body, html{
   margin:0;
   padding: 0;
- 
 
 }
+
 .dados{
     background-color: #0c3971;
-    margin:0;
+    margin:0;   
 }
 h3, span{
     color: white;
-    margin-left: 10px;
-   
+    margin-left: 15px;
+}
+p{
+  color: white;
+  margin: 3px 0px 0px 15px;
+  padding-right: 8px;
+}
+a{
+    color: white;  
 }
 .row{
     display:flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-.informacao{
+.informacao, .competencia, .frame, .erp, .habilidade{
     background-color: #062A54;
     margin-top: 20px;
     padding: 3px;
 }
+
 .experi{
    color: #0c3971;
    font-size: 20px;
@@ -29,3 +39,12 @@ h3, span{
 .contato{
     margin-top: 9px;
 }
+.vazia{
+    height: 90px;
+}
+
+footer p {
+    text-align: center;
+    color: black;
+}
+
